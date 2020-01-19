@@ -1,0 +1,4 @@
+com\php\qa\base\TestBase.class
+com\php\qa\pages\LoginPage.class
+com\php\qa\pages\HomePage.class
+com\php\qa\util\TestUtil.class

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.php.qa.testcases.HomePageTest">
+        <methods>
+          <include name="validateDashboardLabel"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="validateHomePageTitle"/>
+        </methods>
+      </class> <!-- com.php.qa.testcases.HomePageTest -->
+      <class name="com.php.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateLogin"/>
+          <include name="valdiateLoginpageTitle"/>
+          <include name="validateLoginPanelHeader"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.php.qa.testcases.LoginPageTest -->
+      <class name="com.php.qa.testcases.CMSManagementPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validateCreatePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.php.qa.testcases.CMSManagementPageTest -->
+      <class name="com.php.qa.testcases.DataProvidersDemo">
+        <methods>
+          <include name="fillingData"/>
+        </methods>
+      </class> <!-- com.php.qa.testcases.DataProvidersDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
