@@ -58,6 +58,13 @@ public class HomePageTest extends TestBase{
 	{
 		System.out.println("this is the sample test case");
 	}
+	
+	@Test
+	public void testLogin1()
+	{
+		System.out.println("this is the the testlogin1");
+	}
+	
 	@AfterMethod
 	public void tearDown()
 	{
