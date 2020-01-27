@@ -53,7 +53,11 @@ public class HomePageTest extends TestBase{
 		cmsManagementPageLink = homePage.clickPagesLink();
 	}
 	
-	
+	@Test
+	public void testLogin()
+	{
+		System.out.println("this is the sample test case");
+	}
 	
 	@AfterMethod
 	public void tearDown()
